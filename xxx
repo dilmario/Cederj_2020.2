@@ -1,0 +1,32 @@
+<table border="0" align="center">
+            <thead>
+            <tr>
+                 <td colspan="3" align="left" valign="top">
+                    <img src="/Cederj_2020.2/_based_on_table/_imagens/OToldoDeitado.png" alt="Logo" />
+                  
+                    <address align="right" valign="top">
+                        Rua Tolda Coberta, 246 <br />
+                        Tel: (21) 91122-3344 <br />
+                        contato@todopode.com.br
+                    </address>
+                     
+                    <hr />
+                 </td>
+            </tr>
+            </thead>
+            <tr>
+                 <td>
+                    <ul type="circle">
+                    <li><a href="#">Apresentação</a></li>
+                    <li><a href="#">Materiais</a></li>
+                    <li><a href="#">Modelos</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    </ul>
+                 </td>
+                 <td>
+                    <img src="/Cederj_2020.2/_based_on_table/_imagens/OToldoPoderoso.png" alt="Principal" /><br />
+
+                    Coberturas e Toldos, faça chuva ou faça sol.
+                 </td>
+            </tr>
+       </table>
