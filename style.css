@@ -1,0 +1,50 @@
+body {
+    background: #ddcc99;
+    color: #332277;
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #332277;
+}
+
+a:visited {
+    color: #808080;
+}
+
+ol,
+ul {
+    line-height: 200%;
+}
+
+nav ul {
+    color:#332277;
+    line-height: 230%;
+    margin-top: 50px;
+    list-style-type: circle;
+}
+.imgLogo {
+    position: left;
+    border-bottom: solid 3px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+.ender {
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+}
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+}
+
