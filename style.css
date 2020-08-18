@@ -1,13 +1,13 @@
+/* otodopode.html */
 body {
     background: #ddcc99;
     color: #332277;
-    font-family: 'Open Sans' , sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
 }
 
 a {
     text-decoration: none;
-
 }
 
 a:link {
@@ -23,11 +23,31 @@ ul {
     line-height: 200%;
 }
 
+nav {
+    display: block;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Open Sans, sans-serif;
+}
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
 nav ul {
     color:#332277;
     line-height: 230%;
     margin-top: 50px;
     list-style-type: circle;
+}
+
+section {
+    display: block;
+    width: 76%;
+    float: left;
 }
 .imgLogo {
     position: left;
@@ -48,3 +68,24 @@ nav ul {
     font-size: 18px;
 }
 
+/* Section Materiais.html*/
+
+.titulo {
+    text-align: center;
+}
+
+.listMat {
+    display:flex;
+    justify-content: center;
+    width: 340px;
+    color: #aa0000;
+    background-color: #eecc88;
+    padding: 10px 10px 10px 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000055;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    list-style: upper-alpha;
+    align-content: center;    
+}
