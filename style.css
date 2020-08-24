@@ -86,6 +86,60 @@ section {
     border-color: #000055;
     margin-top: 0px;
     margin-bottom: 10px;
-    list-style: upper-alpha;
+    
     align-content: center;    
+}
+
+.letra ul {
+    list-style: square;
+}
+
+ul {
+    list-style-type: upper-alpha;
+}
+
+/* Section Modelos.html*/
+
+.tabMod {
+    border: solid;
+    border-collapse: collapse;
+    margin: 6px auto 10px auto;
+    font-size: 14px;
+    background-color: #eeee99;
+    color: #000066;
+    font-family: 'Muli' sans-serif ;
+}
+
+.tabMod th, td {
+    border: 3px solid #226699;
+    padding: 6px 12px 6px 12px;
+    height: 30px; 
+}
+
+.linTH {
+    color: #ffffff;
+    background: #33aa66;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.colTH {
+    color: #ffffff;
+    background: #1188cc;
+    align-items: left;
+}
+
+.preco {
+    color: #ee0000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.imgCel {
+    background: #ffffff;
+}
+
+.imgCel img {
+    width: 60px;
+    height: 60px;
 }
