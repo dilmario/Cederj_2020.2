@@ -47,7 +47,7 @@ nav ul {
 section {
     display: block;
     width: 76%;
-    float: left;
+    float: right;
 }
 .imgLogo {
     position: left;
@@ -75,8 +75,8 @@ section {
 }
 
 .listMat {
-    display:flex;
-    justify-content: center;
+    display: flex;
+    text-align: center;
     width: 340px;
     color: #aa0000;
     background-color: #eecc88;
@@ -84,10 +84,8 @@ section {
     border: 2px;
     border-style: solid;
     border-color: #000055;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    
-    align-content: center;    
+    margin: 0px auto auto 10px;  
+    place-items: center;    
 }
 
 .letra ul {

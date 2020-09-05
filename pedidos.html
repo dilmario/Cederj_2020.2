@@ -8,7 +8,7 @@
         
     <body>
         <header>
-            <img class="imgLogo" src="/home/dilmario/Cederj_2020.2/_images/OToldoDeitado.png" alt="Topo">
+            <img class="imgLogo" src="./_images/OToldoDeitado.png" alt="Topo">
 
             <div class="ender">Rua Tolda Coberta, 246<br/>
                              Tel: (21) 91122-3344<br />
@@ -18,21 +18,64 @@
             <nav>
                 <ul>
                     <li>
-                        <a target="a" href="/home/dilmario/Cederj_2020.2/otodopode.html">Apresentação</a>
+                        <a target="a" href="./otodopode.html">Apresentação</a>
                     </li>
                     <li>
-                        <a target="a" href="/home/dilmario/Cederj_2020.2/materiais.html">Materiais</a>
+                        <a target="a" href="./materiais.html">Materiais</a>
                     </li>
                     <li>
-                        <a target="a" href="/home/dilmario/Cederj_2020.2/modelos.html">Modelos</a>
+                        <a target="a" href="./modelos.html">Modelos</a>
                     </li>
                     <li>
-                        <a target="a" href="/home/dilmario/Cederj_2020.2/pedidos.html">Pedidos</a>
+                        <a target="a" href="./pedidos.html">Pedidos</a>
                     </li>
                 </ul>
             </nav>
               
-        <section class="">
+        <section class="pedidos">
+            <form action="">
+                <fieldset>
+                    <legend>Seleção de Produtos e Lista de Compras</legend>
+                    <fieldset>
+                        <legend>Selecionado</legend>
+                        <!--Radio Buttons-->
+                        Produto:
+                        <input type="radio" name="selecionado" id="" value="Toldo">
+                        <label for="toldo">Toldo</label>
+                        <input type="radio" name="selecionado" id="" value="Cobertura">
+                        <label for="cobertura">Cobertura</label>
+                        </br>           
+                        <!--Drop down Boxes-->
+                        Material:
+                        <select name="" id="">
+                            <option value="">-</option>
+                            <option value="">--</option>
+                            <option value="">---</option>
+                        </select>
+                        </br>
+                        Modelo:
+                        <select name="" id="">
+                            <option value="">-</option>
+                            <option value="">--</option>
+                            <option value="">---</option>
+                        </select></br>
+                        <!--Caixas de Texto-->
+                        <input type="text">
+                        </br>
+                        <!--Button-->
+                        <input type="button" value="Comprar">
+                        R$ <input type="text">
+                    </fieldset>
+                                       
+                    <!--Text Area-->
+                    <textarea name="" id="" cols="30" rows="10"></textarea></br>
+                    Total R$
+                    <input type="text">
+   
+                </fieldset>
+                <input type="button" value="Continuar">
+                <input type="button" value="Limpar">
+            </form>
             
         </section>
     </body>
