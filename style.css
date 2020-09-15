@@ -141,3 +141,43 @@ ul {
     width: 60px;
     height: 60px;
 }
+
+/*Formatação e poisicionamento de elementos do formulário*/
+
+form {
+    width: 540px;
+    color: #880000;
+    background-color: #eedd99;
+    padding: 6px 6px 15px 6px;
+    font-size: 14px;
+    align-content: center;
+    margin: 10px auto 10px auto;
+    border: solid 2px #000055;
+    font-family:'muli' sans-serif;
+}
+
+form .fsEsq {
+    float: left;
+    margin: 0px;
+}
+
+form .fsDir {
+    
+    float: right;
+    margin: 0px;
+}
+
+form .listaCompras {
+    width: 210px;
+    height: 190px;
+    float: right;
+    margin: 8px 0 0 10px;
+
+}
+
+form .colLabSelProd {
+    align: left;
+    width: 230px;
+    height: 40px;
+    float: left;
+}
